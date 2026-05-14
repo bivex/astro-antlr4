@@ -1,11 +1,20 @@
 lexer grammar AstroLexer;
 
+@members {
+    self.in_raw = False
+    self.pending_script = False
+    self.pending_style = False
+    self.pending_raw = False
+}
+
 // ════════════════════════════════════════════════════════════
-//  Astro Lexer — 4 modes:
+//  Astro Lexer — 7 modes:
 //    DEFAULT     template text / HTML
 //    FRONTMATTER JS/TS code between ---
 //    TAG         inside < ... >
 //    EXPR        inside { ... }
+//    SCRIPT      inside <script> ... </script>
+//    STYLE       inside <style> ... </style>
 // ════════════════════════════════════════════════════════════
 
 // ────────────────────────────────────────────────────────────
@@ -22,32 +31,40 @@ HTML_COMMENT
     : '<!--' .*? '-->' -> skip
     ;
 
-// Special tag blocks
-SCRIPT_OPEN : '<script' -> pushMode(SCRIPT);
-STYLE_OPEN  : '<style'  -> pushMode(STYLE);
+// Special tag blocks: script and style
+// These push TAG mode to parse attributes, then after '>' we'll switch to SCRIPT/STYLE content mode
+SCRIPT_OPEN
+    : '<script' {self.pending_script = True} -> pushMode(TAG)
+    ;
+
+STYLE_OPEN
+    : '<style'  {self.pending_style = True} -> pushMode(TAG)
+    ;
 
 // HTML tag open
 TAG_OPEN
-    : '<' -> pushMode(TAG)
+    : '<' {if self.in_raw: self.in_raw = False} -> pushMode(TAG)
     ;
 
-// HTML close tag
+// HTML close tag open
 TAG_OPEN_CLOSE
-    : '</' -> pushMode(TAG)
+    : '</' {if self.in_raw: self.in_raw = False} -> pushMode(TAG)
     ;
 
-// Template expression
+// Template expression (disabled inside raw blocks via predicate)
 TEMPLATE_EXPR_OPEN
-    : '{' -> pushMode(EXPR)
+    : {not self.in_raw}? '{' -> pushMode(EXPR)
     ;
 
+// Raw text content (used inside is:raw blocks, enabled only when in_raw flag is set)
 RAW_TEXT_CONTENT
-    : ~[<]+
+    : {self.in_raw}? ~[<]+
     ;
 
-// Plain text content
+// Plain text content (used outside raw blocks, enabled when in_raw is false)
+// Exclude newlines to allow frontmatter delimiter recognition
 TEXT
-    : ~[<{]+
+    : {not self.in_raw}? ~[<{\r\n]+
     ;
 
 // Whitespace
@@ -78,11 +95,39 @@ FM_TEXT
 mode TAG;
 
 TAG_CLOSE
-    : '>' -> popMode
+    : '>' {
+        # Determine which pending mode to activate, if any
+        mode = None
+        if self.pending_script:
+            mode = 'SCRIPT'
+        elif self.pending_style:
+            mode = 'STYLE'
+        elif self.pending_raw:
+            mode = 'RAW'
+        # Clear all pending flags
+        self.pending_script = False
+        self.pending_style = False
+        self.pending_raw = False
+        # Pop back to previous mode (exit TAG)
+        self.popMode()
+        # Activate the new mode if needed
+        if mode == 'SCRIPT':
+            self.pushMode(self.SCRIPT)
+        elif mode == 'STYLE':
+            self.pushMode(self.STYLE)
+        elif mode == 'RAW':
+            self.in_raw = True
+      }
     ;
 
 TAG_SELF_CLOSE
-    : '/>' -> popMode
+    : '/>' {
+        # Clear any pending mode flags (self-closing tags have no content)
+        self.pending_script = False
+        self.pending_style = False
+        self.pending_raw = False
+        self.popMode()
+      }
     ;
 
 TAG_WS
@@ -98,7 +143,6 @@ FRAGMENT_TOKEN
     : 'Fragment'
     ;
 
-// No RAW_TEXT_CONTENT here. It's just tags and attributes.
 SERVER_DIRECTIVE
     : 'server:' [a-zA-Z]+
     ;
@@ -112,7 +156,7 @@ SET_TEXT
     ;
 
 IS_RAW
-    : 'is:raw'
+    : 'is:raw' {self.pending_raw = True}
     ;
 
 CLASS_LIST
@@ -171,10 +215,6 @@ DOT
     : '.'
     ;
 
-SPREAD
-    : '...'
-    ;
-
 // ────────────────────────────────────────────────────────────
 //  EXPR MODE  —  inside { ... }
 // ────────────────────────────────────────────────────────────
@@ -186,6 +226,14 @@ EXPR_CLOSE
 
 EXPR_OPEN
     : '{' -> pushMode(EXPR)
+    ;
+
+EXPR_DOT
+    : '.'
+    ;
+
+SPREAD
+    : '...'
     ;
 
 // Strings keep brace counting balanced
@@ -208,13 +256,10 @@ EXPR_COMMENT_OPEN
 
 // Everything else inside expression
 EXPR_TEXT
-    : ~[{}"'`/]+
+    : ~[{}"'`/.]+
     | '/' ~[*]
     ;
 
-// ────────────────────────────────────────────────────────────
-//  SCRIPT MODE  —  inside <script> ... </script>
-// ────────────────────────────────────────────────────────────
 // ────────────────────────────────────────────────────────────
 //  EXPR_COMMENT MODE  —  {/* ... */}
 // ────────────────────────────────────────────────────────────
@@ -254,3 +299,4 @@ STYLE_CLOSE
 STYLE_CONTENT
     : (~[<] | '<' ~[/])+
     ;
+

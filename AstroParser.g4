@@ -7,7 +7,7 @@ options { tokenVocab = AstroLexer; }
 // ════════════════════════════════════════════════════════════
 
 astroFile
-    : frontmatter template EOF
+    : (frontmatter)? template EOF
     ;
 
 // ════════════════════════════════════════════════════════════
@@ -171,8 +171,7 @@ spreadAttr
     ;
 
 astroDirectiveAttr
-    : directiveName EQUALS TAG_EXPR_OPEN exprBody EXPR_CLOSE
-    | directiveName
+    : directiveName (EQUALS (TAG_EXPR_OPEN exprBody EXPR_CLOSE | ATTR_VALUE_DQ | ATTR_VALUE_SQ))?
     ;
 
 attrName
@@ -218,6 +217,7 @@ exprChunk
     | EXPR_TEMPLATE
     | nestedExpr
     | exprComment
+    | EXPR_DOT
     ;
 
 nestedExpr
