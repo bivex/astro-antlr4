@@ -1,0 +1,15 @@
+# Ignore ANTLR generated files
+tests/AstroLexer.interp
+tests/AstroLexer.py
+tests/AstroLexer.tokens
+tests/AstroParser.interp
+tests/AstroParser.py
+tests/AstroParser.tokens
+tests/AstroParserListener.py
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
