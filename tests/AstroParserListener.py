@@ -26,15 +26,6 @@ class AstroParserListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by AstroParser#fmLine.
-    def enterFmLine(self, ctx:AstroParser.FmLineContext):
-        pass
-
-    # Exit a parse tree produced by AstroParser#fmLine.
-    def exitFmLine(self, ctx:AstroParser.FmLineContext):
-        pass
-
-
     # Enter a parse tree produced by AstroParser#template.
     def enterTemplate(self, ctx:AstroParser.TemplateContext):
         pass

@@ -12,7 +12,7 @@ lexer grammar AstroLexer;
 //  DEFAULT MODE  —  template level
 // ────────────────────────────────────────────────────────────
 
-// Frontmatter open: --- at start of file (optionally preceded by whitespace)
+// Frontmatter open: --- at start of file
 FRONTMATTER_OPEN
     : '---' -> pushMode(FRONTMATTER)
     ;

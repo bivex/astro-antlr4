@@ -7,7 +7,7 @@ options { tokenVocab = AstroLexer; }
 // ════════════════════════════════════════════════════════════
 
 astroFile
-    : frontmatter? template EOF
+    : frontmatter template EOF
     ;
 
 // ════════════════════════════════════════════════════════════
@@ -15,11 +15,7 @@ astroFile
 // ════════════════════════════════════════════════════════════
 
 frontmatter
-    : FRONTMATTER_OPEN fmLine* FM_CLOSE
-    ;
-
-fmLine
-    : FM_TEXT+
+    : FRONTMATTER_OPEN FM_TEXT* FM_CLOSE
     ;
 
 // ════════════════════════════════════════════════════════════

@@ -10,124 +10,121 @@ else:
 
 def serializedATN():
     return [
-        4,1,49,344,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,49,335,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
         2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,2,19,7,19,2,20,
         7,20,2,21,7,21,2,22,7,22,2,23,7,23,2,24,7,24,2,25,7,25,2,26,7,26,
         2,27,7,27,2,28,7,28,2,29,7,29,2,30,7,30,2,31,7,31,2,32,7,32,2,33,
-        7,33,2,34,7,34,2,35,7,35,2,36,7,36,2,37,7,37,1,0,3,0,78,8,0,1,0,
-        1,0,1,0,1,1,1,1,5,1,85,8,1,10,1,12,1,88,9,1,1,1,1,1,1,2,4,2,93,8,
-        2,11,2,12,2,94,1,3,5,3,98,8,3,10,3,12,3,101,9,3,1,4,1,4,1,4,1,4,
-        1,4,1,4,1,4,1,4,3,4,111,8,4,1,5,4,5,114,8,5,11,5,12,5,115,1,6,1,
-        6,1,6,1,6,1,6,3,6,123,8,6,1,7,1,7,1,7,5,7,128,8,7,10,7,12,7,131,
-        9,7,1,7,1,7,1,8,1,8,1,8,5,8,138,8,8,10,8,12,8,141,9,8,1,8,1,8,1,
-        9,1,9,1,9,1,9,1,10,1,10,1,11,1,11,1,11,1,11,1,11,3,11,156,8,11,1,
-        12,1,12,1,12,5,12,161,8,12,10,12,12,12,164,9,12,1,12,1,12,1,13,1,
-        13,1,13,5,13,171,8,13,10,13,12,13,174,9,13,1,13,1,13,1,14,1,14,1,
-        14,1,14,1,15,1,15,1,15,5,15,185,8,15,10,15,12,15,188,9,15,1,16,1,
-        16,1,16,1,16,1,16,3,16,195,8,16,1,17,1,17,1,17,5,17,200,8,17,10,
-        17,12,17,203,9,17,1,17,1,17,1,18,1,18,1,18,5,18,210,8,18,10,18,12,
-        18,213,9,18,1,18,1,18,1,19,1,19,1,19,1,19,1,20,1,20,5,20,223,8,20,
-        10,20,12,20,226,9,20,1,20,1,20,5,20,230,8,20,10,20,12,20,233,9,20,
-        1,20,1,20,1,21,1,21,5,21,239,8,21,10,21,12,21,242,9,21,1,21,1,21,
-        5,21,246,8,21,10,21,12,21,249,9,21,1,21,1,21,1,22,1,22,1,22,5,22,
-        256,8,22,10,22,12,22,259,9,22,1,22,1,22,5,22,263,8,22,10,22,12,22,
-        266,9,22,1,22,1,22,1,22,1,22,1,23,1,23,1,24,1,24,1,24,1,24,1,24,
-        3,24,279,8,24,1,25,1,25,1,25,1,25,1,26,1,26,1,26,1,26,1,26,1,26,
-        1,27,1,27,1,28,1,28,1,28,1,28,1,28,1,29,1,29,1,29,1,29,1,29,1,29,
-        1,29,3,29,305,8,29,1,30,1,30,1,31,1,31,1,32,1,32,1,33,1,33,1,33,
-        1,33,1,34,5,34,318,8,34,10,34,12,34,321,9,34,1,35,1,35,1,35,1,35,
-        1,35,1,35,3,35,329,8,35,1,36,1,36,1,36,1,36,1,37,1,37,5,37,337,8,
-        37,10,37,12,37,340,9,37,1,37,1,37,1,37,0,0,38,0,2,4,6,8,10,12,14,
-        16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,
-        60,62,64,66,68,70,72,74,0,4,1,0,28,29,1,0,28,30,1,0,32,33,2,0,17,
-        17,19,27,345,0,77,1,0,0,0,2,82,1,0,0,0,4,92,1,0,0,0,6,99,1,0,0,0,
-        8,110,1,0,0,0,10,113,1,0,0,0,12,122,1,0,0,0,14,124,1,0,0,0,16,134,
-        1,0,0,0,18,144,1,0,0,0,20,148,1,0,0,0,22,155,1,0,0,0,24,157,1,0,
-        0,0,26,167,1,0,0,0,28,177,1,0,0,0,30,181,1,0,0,0,32,194,1,0,0,0,
-        34,196,1,0,0,0,36,206,1,0,0,0,38,216,1,0,0,0,40,220,1,0,0,0,42,236,
-        1,0,0,0,44,252,1,0,0,0,46,271,1,0,0,0,48,278,1,0,0,0,50,280,1,0,
-        0,0,52,284,1,0,0,0,54,290,1,0,0,0,56,292,1,0,0,0,58,304,1,0,0,0,
-        60,306,1,0,0,0,62,308,1,0,0,0,64,310,1,0,0,0,66,312,1,0,0,0,68,319,
-        1,0,0,0,70,328,1,0,0,0,72,330,1,0,0,0,74,334,1,0,0,0,76,78,3,2,1,
-        0,77,76,1,0,0,0,77,78,1,0,0,0,78,79,1,0,0,0,79,80,3,6,3,0,80,81,
-        5,0,0,1,81,1,1,0,0,0,82,86,5,1,0,0,83,85,3,4,2,0,84,83,1,0,0,0,85,
-        88,1,0,0,0,86,84,1,0,0,0,86,87,1,0,0,0,87,89,1,0,0,0,88,86,1,0,0,
-        0,89,90,5,11,0,0,90,3,1,0,0,0,91,93,5,13,0,0,92,91,1,0,0,0,93,94,
-        1,0,0,0,94,92,1,0,0,0,94,95,1,0,0,0,95,5,1,0,0,0,96,98,3,8,4,0,97,
-        96,1,0,0,0,98,101,1,0,0,0,99,97,1,0,0,0,99,100,1,0,0,0,100,7,1,0,
-        0,0,101,99,1,0,0,0,102,111,3,12,6,0,103,111,3,22,11,0,104,111,3,
-        32,16,0,105,111,3,40,20,0,106,111,3,42,21,0,107,111,3,44,22,0,108,
-        111,3,66,33,0,109,111,3,10,5,0,110,102,1,0,0,0,110,103,1,0,0,0,110,
-        104,1,0,0,0,110,105,1,0,0,0,110,106,1,0,0,0,110,107,1,0,0,0,110,
-        108,1,0,0,0,110,109,1,0,0,0,111,9,1,0,0,0,112,114,5,9,0,0,113,112,
-        1,0,0,0,114,115,1,0,0,0,115,113,1,0,0,0,115,116,1,0,0,0,116,11,1,
-        0,0,0,117,118,3,14,7,0,118,119,3,6,3,0,119,120,3,18,9,0,120,123,
-        1,0,0,0,121,123,3,16,8,0,122,117,1,0,0,0,122,121,1,0,0,0,123,13,
-        1,0,0,0,124,125,5,5,0,0,125,129,3,20,10,0,126,128,3,48,24,0,127,
-        126,1,0,0,0,128,131,1,0,0,0,129,127,1,0,0,0,129,130,1,0,0,0,130,
-        132,1,0,0,0,131,129,1,0,0,0,132,133,5,14,0,0,133,15,1,0,0,0,134,
-        135,5,5,0,0,135,139,3,20,10,0,136,138,3,48,24,0,137,136,1,0,0,0,
-        138,141,1,0,0,0,139,137,1,0,0,0,139,140,1,0,0,0,140,142,1,0,0,0,
-        141,139,1,0,0,0,142,143,5,15,0,0,143,17,1,0,0,0,144,145,5,6,0,0,
-        145,146,3,20,10,0,146,147,5,14,0,0,147,19,1,0,0,0,148,149,5,28,0,
-        0,149,21,1,0,0,0,150,151,3,24,12,0,151,152,3,6,3,0,152,153,3,28,
-        14,0,153,156,1,0,0,0,154,156,3,26,13,0,155,150,1,0,0,0,155,154,1,
-        0,0,0,156,23,1,0,0,0,157,158,5,5,0,0,158,162,3,30,15,0,159,161,3,
-        48,24,0,160,159,1,0,0,0,161,164,1,0,0,0,162,160,1,0,0,0,162,163,
-        1,0,0,0,163,165,1,0,0,0,164,162,1,0,0,0,165,166,5,14,0,0,166,25,
-        1,0,0,0,167,168,5,5,0,0,168,172,3,30,15,0,169,171,3,48,24,0,170,
-        169,1,0,0,0,171,174,1,0,0,0,172,170,1,0,0,0,172,173,1,0,0,0,173,
-        175,1,0,0,0,174,172,1,0,0,0,175,176,5,15,0,0,176,27,1,0,0,0,177,
-        178,5,6,0,0,178,179,3,30,15,0,179,180,5,14,0,0,180,29,1,0,0,0,181,
-        186,5,29,0,0,182,183,5,35,0,0,183,185,5,29,0,0,184,182,1,0,0,0,185,
-        188,1,0,0,0,186,184,1,0,0,0,186,187,1,0,0,0,187,31,1,0,0,0,188,186,
-        1,0,0,0,189,190,3,34,17,0,190,191,3,6,3,0,191,192,3,38,19,0,192,
-        195,1,0,0,0,193,195,3,36,18,0,194,189,1,0,0,0,194,193,1,0,0,0,195,
-        33,1,0,0,0,196,197,5,5,0,0,197,201,5,18,0,0,198,200,3,48,24,0,199,
-        198,1,0,0,0,200,203,1,0,0,0,201,199,1,0,0,0,201,202,1,0,0,0,202,
-        204,1,0,0,0,203,201,1,0,0,0,204,205,5,14,0,0,205,35,1,0,0,0,206,
-        207,5,5,0,0,207,211,5,18,0,0,208,210,3,48,24,0,209,208,1,0,0,0,210,
-        213,1,0,0,0,211,209,1,0,0,0,211,212,1,0,0,0,212,214,1,0,0,0,213,
-        211,1,0,0,0,214,215,5,15,0,0,215,37,1,0,0,0,216,217,5,6,0,0,217,
-        218,5,18,0,0,218,219,5,14,0,0,219,39,1,0,0,0,220,224,5,4,0,0,221,
-        223,3,48,24,0,222,221,1,0,0,0,223,226,1,0,0,0,224,222,1,0,0,0,224,
-        225,1,0,0,0,225,227,1,0,0,0,226,224,1,0,0,0,227,231,5,14,0,0,228,
-        230,5,49,0,0,229,228,1,0,0,0,230,233,1,0,0,0,231,229,1,0,0,0,231,
-        232,1,0,0,0,232,234,1,0,0,0,233,231,1,0,0,0,234,235,5,48,0,0,235,
-        41,1,0,0,0,236,240,5,3,0,0,237,239,3,48,24,0,238,237,1,0,0,0,239,
-        242,1,0,0,0,240,238,1,0,0,0,240,241,1,0,0,0,241,243,1,0,0,0,242,
-        240,1,0,0,0,243,247,5,14,0,0,244,246,5,47,0,0,245,244,1,0,0,0,246,
-        249,1,0,0,0,247,245,1,0,0,0,247,248,1,0,0,0,248,250,1,0,0,0,249,
-        247,1,0,0,0,250,251,5,46,0,0,251,43,1,0,0,0,252,253,5,5,0,0,253,
-        257,3,46,23,0,254,256,3,48,24,0,255,254,1,0,0,0,256,259,1,0,0,0,
-        257,255,1,0,0,0,257,258,1,0,0,0,258,260,1,0,0,0,259,257,1,0,0,0,
-        260,264,5,14,0,0,261,263,5,8,0,0,262,261,1,0,0,0,263,266,1,0,0,0,
-        264,262,1,0,0,0,264,265,1,0,0,0,265,267,1,0,0,0,266,264,1,0,0,0,
-        267,268,5,6,0,0,268,269,3,46,23,0,269,270,5,14,0,0,270,45,1,0,0,
-        0,271,272,7,0,0,0,272,47,1,0,0,0,273,279,3,58,29,0,274,279,3,50,
-        25,0,275,279,3,52,26,0,276,279,3,54,27,0,277,279,3,56,28,0,278,273,
-        1,0,0,0,278,274,1,0,0,0,278,275,1,0,0,0,278,276,1,0,0,0,278,277,
-        1,0,0,0,279,49,1,0,0,0,280,281,3,60,30,0,281,282,5,31,0,0,282,283,
-        3,62,31,0,283,51,1,0,0,0,284,285,3,60,30,0,285,286,5,31,0,0,286,
-        287,5,34,0,0,287,288,3,68,34,0,288,289,5,37,0,0,289,53,1,0,0,0,290,
-        291,3,60,30,0,291,55,1,0,0,0,292,293,5,34,0,0,293,294,5,36,0,0,294,
-        295,3,68,34,0,295,296,5,37,0,0,296,57,1,0,0,0,297,298,3,64,32,0,
-        298,299,5,31,0,0,299,300,5,34,0,0,300,301,3,68,34,0,301,302,5,37,
-        0,0,302,305,1,0,0,0,303,305,3,64,32,0,304,297,1,0,0,0,304,303,1,
-        0,0,0,305,59,1,0,0,0,306,307,7,1,0,0,307,61,1,0,0,0,308,309,7,2,
-        0,0,309,63,1,0,0,0,310,311,7,3,0,0,311,65,1,0,0,0,312,313,5,7,0,
-        0,313,314,3,68,34,0,314,315,5,37,0,0,315,67,1,0,0,0,316,318,3,70,
-        35,0,317,316,1,0,0,0,318,321,1,0,0,0,319,317,1,0,0,0,319,320,1,0,
-        0,0,320,69,1,0,0,0,321,319,1,0,0,0,322,329,5,43,0,0,323,329,5,39,
-        0,0,324,329,5,40,0,0,325,329,5,41,0,0,326,329,3,72,36,0,327,329,
-        3,74,37,0,328,322,1,0,0,0,328,323,1,0,0,0,328,324,1,0,0,0,328,325,
-        1,0,0,0,328,326,1,0,0,0,328,327,1,0,0,0,329,71,1,0,0,0,330,331,5,
-        38,0,0,331,332,3,68,34,0,332,333,5,37,0,0,333,73,1,0,0,0,334,338,
-        5,42,0,0,335,337,5,45,0,0,336,335,1,0,0,0,337,340,1,0,0,0,338,336,
-        1,0,0,0,338,339,1,0,0,0,339,341,1,0,0,0,340,338,1,0,0,0,341,342,
-        5,44,0,0,342,75,1,0,0,0,27,77,86,94,99,110,115,122,129,139,155,162,
-        172,186,194,201,211,224,231,240,247,257,264,278,304,319,328,338
+        7,33,2,34,7,34,2,35,7,35,2,36,7,36,1,0,1,0,1,0,1,0,1,1,1,1,5,1,81,
+        8,1,10,1,12,1,84,9,1,1,1,1,1,1,2,5,2,89,8,2,10,2,12,2,92,9,2,1,3,
+        1,3,1,3,1,3,1,3,1,3,1,3,1,3,3,3,102,8,3,1,4,4,4,105,8,4,11,4,12,
+        4,106,1,5,1,5,1,5,1,5,1,5,3,5,114,8,5,1,6,1,6,1,6,5,6,119,8,6,10,
+        6,12,6,122,9,6,1,6,1,6,1,7,1,7,1,7,5,7,129,8,7,10,7,12,7,132,9,7,
+        1,7,1,7,1,8,1,8,1,8,1,8,1,9,1,9,1,10,1,10,1,10,1,10,1,10,3,10,147,
+        8,10,1,11,1,11,1,11,5,11,152,8,11,10,11,12,11,155,9,11,1,11,1,11,
+        1,12,1,12,1,12,5,12,162,8,12,10,12,12,12,165,9,12,1,12,1,12,1,13,
+        1,13,1,13,1,13,1,14,1,14,1,14,5,14,176,8,14,10,14,12,14,179,9,14,
+        1,15,1,15,1,15,1,15,1,15,3,15,186,8,15,1,16,1,16,1,16,5,16,191,8,
+        16,10,16,12,16,194,9,16,1,16,1,16,1,17,1,17,1,17,5,17,201,8,17,10,
+        17,12,17,204,9,17,1,17,1,17,1,18,1,18,1,18,1,18,1,19,1,19,5,19,214,
+        8,19,10,19,12,19,217,9,19,1,19,1,19,5,19,221,8,19,10,19,12,19,224,
+        9,19,1,19,1,19,1,20,1,20,5,20,230,8,20,10,20,12,20,233,9,20,1,20,
+        1,20,5,20,237,8,20,10,20,12,20,240,9,20,1,20,1,20,1,21,1,21,1,21,
+        5,21,247,8,21,10,21,12,21,250,9,21,1,21,1,21,5,21,254,8,21,10,21,
+        12,21,257,9,21,1,21,1,21,1,21,1,21,1,22,1,22,1,23,1,23,1,23,1,23,
+        1,23,3,23,270,8,23,1,24,1,24,1,24,1,24,1,25,1,25,1,25,1,25,1,25,
+        1,25,1,26,1,26,1,27,1,27,1,27,1,27,1,27,1,28,1,28,1,28,1,28,1,28,
+        1,28,1,28,3,28,296,8,28,1,29,1,29,1,30,1,30,1,31,1,31,1,32,1,32,
+        1,32,1,32,1,33,5,33,309,8,33,10,33,12,33,312,9,33,1,34,1,34,1,34,
+        1,34,1,34,1,34,3,34,320,8,34,1,35,1,35,1,35,1,35,1,36,1,36,5,36,
+        328,8,36,10,36,12,36,331,9,36,1,36,1,36,1,36,0,0,37,0,2,4,6,8,10,
+        12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,
+        56,58,60,62,64,66,68,70,72,0,4,1,0,28,29,1,0,28,30,1,0,32,33,2,0,
+        17,17,19,27,335,0,74,1,0,0,0,2,78,1,0,0,0,4,90,1,0,0,0,6,101,1,0,
+        0,0,8,104,1,0,0,0,10,113,1,0,0,0,12,115,1,0,0,0,14,125,1,0,0,0,16,
+        135,1,0,0,0,18,139,1,0,0,0,20,146,1,0,0,0,22,148,1,0,0,0,24,158,
+        1,0,0,0,26,168,1,0,0,0,28,172,1,0,0,0,30,185,1,0,0,0,32,187,1,0,
+        0,0,34,197,1,0,0,0,36,207,1,0,0,0,38,211,1,0,0,0,40,227,1,0,0,0,
+        42,243,1,0,0,0,44,262,1,0,0,0,46,269,1,0,0,0,48,271,1,0,0,0,50,275,
+        1,0,0,0,52,281,1,0,0,0,54,283,1,0,0,0,56,295,1,0,0,0,58,297,1,0,
+        0,0,60,299,1,0,0,0,62,301,1,0,0,0,64,303,1,0,0,0,66,310,1,0,0,0,
+        68,319,1,0,0,0,70,321,1,0,0,0,72,325,1,0,0,0,74,75,3,2,1,0,75,76,
+        3,4,2,0,76,77,5,0,0,1,77,1,1,0,0,0,78,82,5,1,0,0,79,81,5,13,0,0,
+        80,79,1,0,0,0,81,84,1,0,0,0,82,80,1,0,0,0,82,83,1,0,0,0,83,85,1,
+        0,0,0,84,82,1,0,0,0,85,86,5,11,0,0,86,3,1,0,0,0,87,89,3,6,3,0,88,
+        87,1,0,0,0,89,92,1,0,0,0,90,88,1,0,0,0,90,91,1,0,0,0,91,5,1,0,0,
+        0,92,90,1,0,0,0,93,102,3,10,5,0,94,102,3,20,10,0,95,102,3,30,15,
+        0,96,102,3,38,19,0,97,102,3,40,20,0,98,102,3,42,21,0,99,102,3,64,
+        32,0,100,102,3,8,4,0,101,93,1,0,0,0,101,94,1,0,0,0,101,95,1,0,0,
+        0,101,96,1,0,0,0,101,97,1,0,0,0,101,98,1,0,0,0,101,99,1,0,0,0,101,
+        100,1,0,0,0,102,7,1,0,0,0,103,105,5,9,0,0,104,103,1,0,0,0,105,106,
+        1,0,0,0,106,104,1,0,0,0,106,107,1,0,0,0,107,9,1,0,0,0,108,109,3,
+        12,6,0,109,110,3,4,2,0,110,111,3,16,8,0,111,114,1,0,0,0,112,114,
+        3,14,7,0,113,108,1,0,0,0,113,112,1,0,0,0,114,11,1,0,0,0,115,116,
+        5,5,0,0,116,120,3,18,9,0,117,119,3,46,23,0,118,117,1,0,0,0,119,122,
+        1,0,0,0,120,118,1,0,0,0,120,121,1,0,0,0,121,123,1,0,0,0,122,120,
+        1,0,0,0,123,124,5,14,0,0,124,13,1,0,0,0,125,126,5,5,0,0,126,130,
+        3,18,9,0,127,129,3,46,23,0,128,127,1,0,0,0,129,132,1,0,0,0,130,128,
+        1,0,0,0,130,131,1,0,0,0,131,133,1,0,0,0,132,130,1,0,0,0,133,134,
+        5,15,0,0,134,15,1,0,0,0,135,136,5,6,0,0,136,137,3,18,9,0,137,138,
+        5,14,0,0,138,17,1,0,0,0,139,140,5,28,0,0,140,19,1,0,0,0,141,142,
+        3,22,11,0,142,143,3,4,2,0,143,144,3,26,13,0,144,147,1,0,0,0,145,
+        147,3,24,12,0,146,141,1,0,0,0,146,145,1,0,0,0,147,21,1,0,0,0,148,
+        149,5,5,0,0,149,153,3,28,14,0,150,152,3,46,23,0,151,150,1,0,0,0,
+        152,155,1,0,0,0,153,151,1,0,0,0,153,154,1,0,0,0,154,156,1,0,0,0,
+        155,153,1,0,0,0,156,157,5,14,0,0,157,23,1,0,0,0,158,159,5,5,0,0,
+        159,163,3,28,14,0,160,162,3,46,23,0,161,160,1,0,0,0,162,165,1,0,
+        0,0,163,161,1,0,0,0,163,164,1,0,0,0,164,166,1,0,0,0,165,163,1,0,
+        0,0,166,167,5,15,0,0,167,25,1,0,0,0,168,169,5,6,0,0,169,170,3,28,
+        14,0,170,171,5,14,0,0,171,27,1,0,0,0,172,177,5,29,0,0,173,174,5,
+        35,0,0,174,176,5,29,0,0,175,173,1,0,0,0,176,179,1,0,0,0,177,175,
+        1,0,0,0,177,178,1,0,0,0,178,29,1,0,0,0,179,177,1,0,0,0,180,181,3,
+        32,16,0,181,182,3,4,2,0,182,183,3,36,18,0,183,186,1,0,0,0,184,186,
+        3,34,17,0,185,180,1,0,0,0,185,184,1,0,0,0,186,31,1,0,0,0,187,188,
+        5,5,0,0,188,192,5,18,0,0,189,191,3,46,23,0,190,189,1,0,0,0,191,194,
+        1,0,0,0,192,190,1,0,0,0,192,193,1,0,0,0,193,195,1,0,0,0,194,192,
+        1,0,0,0,195,196,5,14,0,0,196,33,1,0,0,0,197,198,5,5,0,0,198,202,
+        5,18,0,0,199,201,3,46,23,0,200,199,1,0,0,0,201,204,1,0,0,0,202,200,
+        1,0,0,0,202,203,1,0,0,0,203,205,1,0,0,0,204,202,1,0,0,0,205,206,
+        5,15,0,0,206,35,1,0,0,0,207,208,5,6,0,0,208,209,5,18,0,0,209,210,
+        5,14,0,0,210,37,1,0,0,0,211,215,5,4,0,0,212,214,3,46,23,0,213,212,
+        1,0,0,0,214,217,1,0,0,0,215,213,1,0,0,0,215,216,1,0,0,0,216,218,
+        1,0,0,0,217,215,1,0,0,0,218,222,5,14,0,0,219,221,5,49,0,0,220,219,
+        1,0,0,0,221,224,1,0,0,0,222,220,1,0,0,0,222,223,1,0,0,0,223,225,
+        1,0,0,0,224,222,1,0,0,0,225,226,5,48,0,0,226,39,1,0,0,0,227,231,
+        5,3,0,0,228,230,3,46,23,0,229,228,1,0,0,0,230,233,1,0,0,0,231,229,
+        1,0,0,0,231,232,1,0,0,0,232,234,1,0,0,0,233,231,1,0,0,0,234,238,
+        5,14,0,0,235,237,5,47,0,0,236,235,1,0,0,0,237,240,1,0,0,0,238,236,
+        1,0,0,0,238,239,1,0,0,0,239,241,1,0,0,0,240,238,1,0,0,0,241,242,
+        5,46,0,0,242,41,1,0,0,0,243,244,5,5,0,0,244,248,3,44,22,0,245,247,
+        3,46,23,0,246,245,1,0,0,0,247,250,1,0,0,0,248,246,1,0,0,0,248,249,
+        1,0,0,0,249,251,1,0,0,0,250,248,1,0,0,0,251,255,5,14,0,0,252,254,
+        5,8,0,0,253,252,1,0,0,0,254,257,1,0,0,0,255,253,1,0,0,0,255,256,
+        1,0,0,0,256,258,1,0,0,0,257,255,1,0,0,0,258,259,5,6,0,0,259,260,
+        3,44,22,0,260,261,5,14,0,0,261,43,1,0,0,0,262,263,7,0,0,0,263,45,
+        1,0,0,0,264,270,3,56,28,0,265,270,3,48,24,0,266,270,3,50,25,0,267,
+        270,3,52,26,0,268,270,3,54,27,0,269,264,1,0,0,0,269,265,1,0,0,0,
+        269,266,1,0,0,0,269,267,1,0,0,0,269,268,1,0,0,0,270,47,1,0,0,0,271,
+        272,3,58,29,0,272,273,5,31,0,0,273,274,3,60,30,0,274,49,1,0,0,0,
+        275,276,3,58,29,0,276,277,5,31,0,0,277,278,5,34,0,0,278,279,3,66,
+        33,0,279,280,5,37,0,0,280,51,1,0,0,0,281,282,3,58,29,0,282,53,1,
+        0,0,0,283,284,5,34,0,0,284,285,5,36,0,0,285,286,3,66,33,0,286,287,
+        5,37,0,0,287,55,1,0,0,0,288,289,3,62,31,0,289,290,5,31,0,0,290,291,
+        5,34,0,0,291,292,3,66,33,0,292,293,5,37,0,0,293,296,1,0,0,0,294,
+        296,3,62,31,0,295,288,1,0,0,0,295,294,1,0,0,0,296,57,1,0,0,0,297,
+        298,7,1,0,0,298,59,1,0,0,0,299,300,7,2,0,0,300,61,1,0,0,0,301,302,
+        7,3,0,0,302,63,1,0,0,0,303,304,5,7,0,0,304,305,3,66,33,0,305,306,
+        5,37,0,0,306,65,1,0,0,0,307,309,3,68,34,0,308,307,1,0,0,0,309,312,
+        1,0,0,0,310,308,1,0,0,0,310,311,1,0,0,0,311,67,1,0,0,0,312,310,1,
+        0,0,0,313,320,5,43,0,0,314,320,5,39,0,0,315,320,5,40,0,0,316,320,
+        5,41,0,0,317,320,3,70,35,0,318,320,3,72,36,0,319,313,1,0,0,0,319,
+        314,1,0,0,0,319,315,1,0,0,0,319,316,1,0,0,0,319,317,1,0,0,0,319,
+        318,1,0,0,0,320,69,1,0,0,0,321,322,5,38,0,0,322,323,3,66,33,0,323,
+        324,5,37,0,0,324,71,1,0,0,0,325,329,5,42,0,0,326,328,5,45,0,0,327,
+        326,1,0,0,0,328,331,1,0,0,0,329,327,1,0,0,0,329,330,1,0,0,0,330,
+        332,1,0,0,0,331,329,1,0,0,0,332,333,5,44,0,0,333,73,1,0,0,0,25,82,
+        90,101,106,113,120,130,146,153,163,177,185,192,202,215,222,231,238,
+        248,255,269,295,310,319,329
     ]
 
 class AstroParser ( Parser ):
@@ -168,44 +165,43 @@ class AstroParser ( Parser ):
 
     RULE_astroFile = 0
     RULE_frontmatter = 1
-    RULE_fmLine = 2
-    RULE_template = 3
-    RULE_templateItem = 4
-    RULE_text = 5
-    RULE_htmlElement = 6
-    RULE_htmlOpenTag = 7
-    RULE_htmlVoidTag = 8
-    RULE_htmlCloseTag = 9
-    RULE_htmlTagName = 10
-    RULE_componentElement = 11
-    RULE_componentOpenTag = 12
-    RULE_componentSelfCloseTag = 13
-    RULE_componentCloseTag = 14
-    RULE_componentTagName = 15
-    RULE_fragmentElement = 16
-    RULE_fragmentOpenTag = 17
-    RULE_fragmentSelfCloseTag = 18
-    RULE_fragmentCloseTag = 19
-    RULE_styleBlock = 20
-    RULE_scriptBlock = 21
-    RULE_rawTextBlock = 22
-    RULE_rawTagName = 23
-    RULE_attribute = 24
-    RULE_normalAttr = 25
-    RULE_exprAttr = 26
-    RULE_booleanAttr = 27
-    RULE_spreadAttr = 28
-    RULE_astroDirectiveAttr = 29
-    RULE_attrName = 30
-    RULE_attrValue = 31
-    RULE_directiveName = 32
-    RULE_templateExpr = 33
-    RULE_exprBody = 34
-    RULE_exprChunk = 35
-    RULE_nestedExpr = 36
-    RULE_exprComment = 37
+    RULE_template = 2
+    RULE_templateItem = 3
+    RULE_text = 4
+    RULE_htmlElement = 5
+    RULE_htmlOpenTag = 6
+    RULE_htmlVoidTag = 7
+    RULE_htmlCloseTag = 8
+    RULE_htmlTagName = 9
+    RULE_componentElement = 10
+    RULE_componentOpenTag = 11
+    RULE_componentSelfCloseTag = 12
+    RULE_componentCloseTag = 13
+    RULE_componentTagName = 14
+    RULE_fragmentElement = 15
+    RULE_fragmentOpenTag = 16
+    RULE_fragmentSelfCloseTag = 17
+    RULE_fragmentCloseTag = 18
+    RULE_styleBlock = 19
+    RULE_scriptBlock = 20
+    RULE_rawTextBlock = 21
+    RULE_rawTagName = 22
+    RULE_attribute = 23
+    RULE_normalAttr = 24
+    RULE_exprAttr = 25
+    RULE_booleanAttr = 26
+    RULE_spreadAttr = 27
+    RULE_astroDirectiveAttr = 28
+    RULE_attrName = 29
+    RULE_attrValue = 30
+    RULE_directiveName = 31
+    RULE_templateExpr = 32
+    RULE_exprBody = 33
+    RULE_exprChunk = 34
+    RULE_nestedExpr = 35
+    RULE_exprComment = 36
 
-    ruleNames =  [ "astroFile", "frontmatter", "fmLine", "template", "templateItem", 
+    ruleNames =  [ "astroFile", "frontmatter", "template", "templateItem", 
                    "text", "htmlElement", "htmlOpenTag", "htmlVoidTag", 
                    "htmlCloseTag", "htmlTagName", "componentElement", "componentOpenTag", 
                    "componentSelfCloseTag", "componentCloseTag", "componentTagName", 
@@ -283,16 +279,16 @@ class AstroParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def frontmatter(self):
+            return self.getTypedRuleContext(AstroParser.FrontmatterContext,0)
+
+
         def template(self):
             return self.getTypedRuleContext(AstroParser.TemplateContext,0)
 
 
         def EOF(self):
             return self.getToken(AstroParser.EOF, 0)
-
-        def frontmatter(self):
-            return self.getTypedRuleContext(AstroParser.FrontmatterContext,0)
-
 
         def getRuleIndex(self):
             return AstroParser.RULE_astroFile
@@ -312,20 +308,13 @@ class AstroParser ( Parser ):
 
         localctx = AstroParser.AstroFileContext(self, self._ctx, self.state)
         self.enterRule(localctx, 0, self.RULE_astroFile)
-        self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 77
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            if _la==1:
-                self.state = 76
-                self.frontmatter()
-
-
-            self.state = 79
+            self.state = 74
+            self.frontmatter()
+            self.state = 75
             self.template()
-            self.state = 80
+            self.state = 76
             self.match(AstroParser.EOF)
         except RecognitionException as re:
             localctx.exception = re
@@ -349,12 +338,11 @@ class AstroParser ( Parser ):
         def FM_CLOSE(self):
             return self.getToken(AstroParser.FM_CLOSE, 0)
 
-        def fmLine(self, i:int=None):
+        def FM_TEXT(self, i:int=None):
             if i is None:
-                return self.getTypedRuleContexts(AstroParser.FmLineContext)
+                return self.getTokens(AstroParser.FM_TEXT)
             else:
-                return self.getTypedRuleContext(AstroParser.FmLineContext,i)
-
+                return self.getToken(AstroParser.FM_TEXT, i)
 
         def getRuleIndex(self):
             return AstroParser.RULE_frontmatter
@@ -377,76 +365,20 @@ class AstroParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 82
+            self.state = 78
             self.match(AstroParser.FRONTMATTER_OPEN)
-            self.state = 86
+            self.state = 82
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==13:
-                self.state = 83
-                self.fmLine()
-                self.state = 88
+                self.state = 79
+                self.match(AstroParser.FM_TEXT)
+                self.state = 84
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 89
+            self.state = 85
             self.match(AstroParser.FM_CLOSE)
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class FmLineContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def FM_TEXT(self, i:int=None):
-            if i is None:
-                return self.getTokens(AstroParser.FM_TEXT)
-            else:
-                return self.getToken(AstroParser.FM_TEXT, i)
-
-        def getRuleIndex(self):
-            return AstroParser.RULE_fmLine
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterFmLine" ):
-                listener.enterFmLine(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitFmLine" ):
-                listener.exitFmLine(self)
-
-
-
-
-    def fmLine(self):
-
-        localctx = AstroParser.FmLineContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 4, self.RULE_fmLine)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 92 
-            self._errHandler.sync(self)
-            _alt = 1
-            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
-                if _alt == 1:
-                    self.state = 91
-                    self.match(AstroParser.FM_TEXT)
-
-                else:
-                    raise NoViableAltException(self)
-                self.state = 94 
-                self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,2,self._ctx)
-
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -487,17 +419,17 @@ class AstroParser ( Parser ):
     def template(self):
 
         localctx = AstroParser.TemplateContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 6, self.RULE_template)
+        self.enterRule(localctx, 4, self.RULE_template)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 99
+            self.state = 90
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 696) != 0):
-                self.state = 96
+                self.state = 87
                 self.templateItem()
-                self.state = 101
+                self.state = 92
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -566,56 +498,56 @@ class AstroParser ( Parser ):
     def templateItem(self):
 
         localctx = AstroParser.TemplateItemContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 8, self.RULE_templateItem)
+        self.enterRule(localctx, 6, self.RULE_templateItem)
         try:
-            self.state = 110
+            self.state = 101
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,4,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,2,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 102
+                self.state = 93
                 self.htmlElement()
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 103
+                self.state = 94
                 self.componentElement()
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 104
+                self.state = 95
                 self.fragmentElement()
                 pass
 
             elif la_ == 4:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 105
+                self.state = 96
                 self.styleBlock()
                 pass
 
             elif la_ == 5:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 106
+                self.state = 97
                 self.scriptBlock()
                 pass
 
             elif la_ == 6:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 107
+                self.state = 98
                 self.rawTextBlock()
                 pass
 
             elif la_ == 7:
                 self.enterOuterAlt(localctx, 7)
-                self.state = 108
+                self.state = 99
                 self.templateExpr()
                 pass
 
             elif la_ == 8:
                 self.enterOuterAlt(localctx, 8)
-                self.state = 109
+                self.state = 100
                 self.text()
                 pass
 
@@ -659,22 +591,22 @@ class AstroParser ( Parser ):
     def text(self):
 
         localctx = AstroParser.TextContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 10, self.RULE_text)
+        self.enterRule(localctx, 8, self.RULE_text)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 113 
+            self.state = 104 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 112
+                    self.state = 103
                     self.match(AstroParser.TEXT)
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 115 
+                self.state = 106 
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,5,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,3,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -725,24 +657,24 @@ class AstroParser ( Parser ):
     def htmlElement(self):
 
         localctx = AstroParser.HtmlElementContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 12, self.RULE_htmlElement)
+        self.enterRule(localctx, 10, self.RULE_htmlElement)
         try:
-            self.state = 122
+            self.state = 113
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,6,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,4,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 117
+                self.state = 108
                 self.htmlOpenTag()
-                self.state = 118
+                self.state = 109
                 self.template()
-                self.state = 119
+                self.state = 110
                 self.htmlCloseTag()
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 121
+                self.state = 112
                 self.htmlVoidTag()
                 pass
 
@@ -797,25 +729,25 @@ class AstroParser ( Parser ):
     def htmlOpenTag(self):
 
         localctx = AstroParser.HtmlOpenTagContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 14, self.RULE_htmlOpenTag)
+        self.enterRule(localctx, 12, self.RULE_htmlOpenTag)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 124
+            self.state = 115
             self.match(AstroParser.TAG_OPEN)
-            self.state = 125
+            self.state = 116
             self.htmlTagName()
-            self.state = 129
+            self.state = 120
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 19326959616) != 0):
-                self.state = 126
+                self.state = 117
                 self.attribute()
-                self.state = 131
+                self.state = 122
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 132
+            self.state = 123
             self.match(AstroParser.TAG_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -867,25 +799,25 @@ class AstroParser ( Parser ):
     def htmlVoidTag(self):
 
         localctx = AstroParser.HtmlVoidTagContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_htmlVoidTag)
+        self.enterRule(localctx, 14, self.RULE_htmlVoidTag)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 134
+            self.state = 125
             self.match(AstroParser.TAG_OPEN)
-            self.state = 135
+            self.state = 126
             self.htmlTagName()
-            self.state = 139
+            self.state = 130
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 19326959616) != 0):
-                self.state = 136
+                self.state = 127
                 self.attribute()
-                self.state = 141
+                self.state = 132
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 142
+            self.state = 133
             self.match(AstroParser.TAG_SELF_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -930,14 +862,14 @@ class AstroParser ( Parser ):
     def htmlCloseTag(self):
 
         localctx = AstroParser.HtmlCloseTagContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_htmlCloseTag)
+        self.enterRule(localctx, 16, self.RULE_htmlCloseTag)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 144
+            self.state = 135
             self.match(AstroParser.TAG_OPEN_CLOSE)
-            self.state = 145
+            self.state = 136
             self.htmlTagName()
-            self.state = 146
+            self.state = 137
             self.match(AstroParser.TAG_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -975,10 +907,10 @@ class AstroParser ( Parser ):
     def htmlTagName(self):
 
         localctx = AstroParser.HtmlTagNameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_htmlTagName)
+        self.enterRule(localctx, 18, self.RULE_htmlTagName)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 148
+            self.state = 139
             self.match(AstroParser.LOWER_IDENT)
         except RecognitionException as re:
             localctx.exception = re
@@ -1029,24 +961,24 @@ class AstroParser ( Parser ):
     def componentElement(self):
 
         localctx = AstroParser.ComponentElementContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_componentElement)
+        self.enterRule(localctx, 20, self.RULE_componentElement)
         try:
-            self.state = 155
+            self.state = 146
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,9,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,7,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 150
+                self.state = 141
                 self.componentOpenTag()
-                self.state = 151
+                self.state = 142
                 self.template()
-                self.state = 152
+                self.state = 143
                 self.componentCloseTag()
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 154
+                self.state = 145
                 self.componentSelfCloseTag()
                 pass
 
@@ -1101,25 +1033,25 @@ class AstroParser ( Parser ):
     def componentOpenTag(self):
 
         localctx = AstroParser.ComponentOpenTagContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 24, self.RULE_componentOpenTag)
+        self.enterRule(localctx, 22, self.RULE_componentOpenTag)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 157
+            self.state = 148
             self.match(AstroParser.TAG_OPEN)
-            self.state = 158
+            self.state = 149
             self.componentTagName()
-            self.state = 162
+            self.state = 153
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 19326959616) != 0):
-                self.state = 159
+                self.state = 150
                 self.attribute()
-                self.state = 164
+                self.state = 155
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 165
+            self.state = 156
             self.match(AstroParser.TAG_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1171,25 +1103,25 @@ class AstroParser ( Parser ):
     def componentSelfCloseTag(self):
 
         localctx = AstroParser.ComponentSelfCloseTagContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 26, self.RULE_componentSelfCloseTag)
+        self.enterRule(localctx, 24, self.RULE_componentSelfCloseTag)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 167
+            self.state = 158
             self.match(AstroParser.TAG_OPEN)
-            self.state = 168
+            self.state = 159
             self.componentTagName()
-            self.state = 172
+            self.state = 163
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 19326959616) != 0):
-                self.state = 169
+                self.state = 160
                 self.attribute()
-                self.state = 174
+                self.state = 165
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 175
+            self.state = 166
             self.match(AstroParser.TAG_SELF_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1234,14 +1166,14 @@ class AstroParser ( Parser ):
     def componentCloseTag(self):
 
         localctx = AstroParser.ComponentCloseTagContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 28, self.RULE_componentCloseTag)
+        self.enterRule(localctx, 26, self.RULE_componentCloseTag)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 177
+            self.state = 168
             self.match(AstroParser.TAG_OPEN_CLOSE)
-            self.state = 178
+            self.state = 169
             self.componentTagName()
-            self.state = 179
+            self.state = 170
             self.match(AstroParser.TAG_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1288,21 +1220,21 @@ class AstroParser ( Parser ):
     def componentTagName(self):
 
         localctx = AstroParser.ComponentTagNameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 30, self.RULE_componentTagName)
+        self.enterRule(localctx, 28, self.RULE_componentTagName)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 181
+            self.state = 172
             self.match(AstroParser.UPPER_IDENT)
-            self.state = 186
+            self.state = 177
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==35:
-                self.state = 182
+                self.state = 173
                 self.match(AstroParser.DOT)
-                self.state = 183
+                self.state = 174
                 self.match(AstroParser.UPPER_IDENT)
-                self.state = 188
+                self.state = 179
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1355,24 +1287,24 @@ class AstroParser ( Parser ):
     def fragmentElement(self):
 
         localctx = AstroParser.FragmentElementContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 32, self.RULE_fragmentElement)
+        self.enterRule(localctx, 30, self.RULE_fragmentElement)
         try:
-            self.state = 194
+            self.state = 185
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,13,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,11,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 189
+                self.state = 180
                 self.fragmentOpenTag()
-                self.state = 190
+                self.state = 181
                 self.template()
-                self.state = 191
+                self.state = 182
                 self.fragmentCloseTag()
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 193
+                self.state = 184
                 self.fragmentSelfCloseTag()
                 pass
 
@@ -1426,25 +1358,25 @@ class AstroParser ( Parser ):
     def fragmentOpenTag(self):
 
         localctx = AstroParser.FragmentOpenTagContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 34, self.RULE_fragmentOpenTag)
+        self.enterRule(localctx, 32, self.RULE_fragmentOpenTag)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 196
+            self.state = 187
             self.match(AstroParser.TAG_OPEN)
-            self.state = 197
+            self.state = 188
             self.match(AstroParser.FRAGMENT_TOKEN)
-            self.state = 201
+            self.state = 192
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 19326959616) != 0):
-                self.state = 198
+                self.state = 189
                 self.attribute()
-                self.state = 203
+                self.state = 194
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 204
+            self.state = 195
             self.match(AstroParser.TAG_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1495,25 +1427,25 @@ class AstroParser ( Parser ):
     def fragmentSelfCloseTag(self):
 
         localctx = AstroParser.FragmentSelfCloseTagContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 36, self.RULE_fragmentSelfCloseTag)
+        self.enterRule(localctx, 34, self.RULE_fragmentSelfCloseTag)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 206
+            self.state = 197
             self.match(AstroParser.TAG_OPEN)
-            self.state = 207
+            self.state = 198
             self.match(AstroParser.FRAGMENT_TOKEN)
-            self.state = 211
+            self.state = 202
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 19326959616) != 0):
-                self.state = 208
+                self.state = 199
                 self.attribute()
-                self.state = 213
+                self.state = 204
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 214
+            self.state = 205
             self.match(AstroParser.TAG_SELF_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1557,14 +1489,14 @@ class AstroParser ( Parser ):
     def fragmentCloseTag(self):
 
         localctx = AstroParser.FragmentCloseTagContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 38, self.RULE_fragmentCloseTag)
+        self.enterRule(localctx, 36, self.RULE_fragmentCloseTag)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 216
+            self.state = 207
             self.match(AstroParser.TAG_OPEN_CLOSE)
-            self.state = 217
+            self.state = 208
             self.match(AstroParser.FRAGMENT_TOKEN)
-            self.state = 218
+            self.state = 209
             self.match(AstroParser.TAG_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1621,35 +1553,35 @@ class AstroParser ( Parser ):
     def styleBlock(self):
 
         localctx = AstroParser.StyleBlockContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 40, self.RULE_styleBlock)
+        self.enterRule(localctx, 38, self.RULE_styleBlock)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 220
+            self.state = 211
             self.match(AstroParser.STYLE_OPEN)
-            self.state = 224
+            self.state = 215
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 19326959616) != 0):
-                self.state = 221
+                self.state = 212
                 self.attribute()
-                self.state = 226
+                self.state = 217
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 227
+            self.state = 218
             self.match(AstroParser.TAG_CLOSE)
-            self.state = 231
+            self.state = 222
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==49:
-                self.state = 228
+                self.state = 219
                 self.match(AstroParser.STYLE_CONTENT)
-                self.state = 233
+                self.state = 224
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 234
+            self.state = 225
             self.match(AstroParser.STYLE_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1706,35 +1638,35 @@ class AstroParser ( Parser ):
     def scriptBlock(self):
 
         localctx = AstroParser.ScriptBlockContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 42, self.RULE_scriptBlock)
+        self.enterRule(localctx, 40, self.RULE_scriptBlock)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 236
+            self.state = 227
             self.match(AstroParser.SCRIPT_OPEN)
-            self.state = 240
+            self.state = 231
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 19326959616) != 0):
-                self.state = 237
+                self.state = 228
                 self.attribute()
-                self.state = 242
+                self.state = 233
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 243
+            self.state = 234
             self.match(AstroParser.TAG_CLOSE)
-            self.state = 247
+            self.state = 238
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==47:
-                self.state = 244
+                self.state = 235
                 self.match(AstroParser.SCRIPT_CONTENT)
-                self.state = 249
+                self.state = 240
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 250
+            self.state = 241
             self.match(AstroParser.SCRIPT_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1801,41 +1733,41 @@ class AstroParser ( Parser ):
     def rawTextBlock(self):
 
         localctx = AstroParser.RawTextBlockContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 44, self.RULE_rawTextBlock)
+        self.enterRule(localctx, 42, self.RULE_rawTextBlock)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 252
+            self.state = 243
             self.match(AstroParser.TAG_OPEN)
-            self.state = 253
+            self.state = 244
             self.rawTagName()
-            self.state = 257
+            self.state = 248
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 19326959616) != 0):
-                self.state = 254
+                self.state = 245
                 self.attribute()
-                self.state = 259
+                self.state = 250
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 260
+            self.state = 251
             self.match(AstroParser.TAG_CLOSE)
-            self.state = 264
+            self.state = 255
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==8:
-                self.state = 261
+                self.state = 252
                 self.match(AstroParser.RAW_TEXT_CONTENT)
-                self.state = 266
+                self.state = 257
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 267
+            self.state = 258
             self.match(AstroParser.TAG_OPEN_CLOSE)
-            self.state = 268
+            self.state = 259
             self.rawTagName()
-            self.state = 269
+            self.state = 260
             self.match(AstroParser.TAG_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1876,11 +1808,11 @@ class AstroParser ( Parser ):
     def rawTagName(self):
 
         localctx = AstroParser.RawTagNameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 46, self.RULE_rawTagName)
+        self.enterRule(localctx, 44, self.RULE_rawTagName)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 271
+            self.state = 262
             _la = self._input.LA(1)
             if not(_la==28 or _la==29):
                 self._errHandler.recoverInline(self)
@@ -1940,38 +1872,38 @@ class AstroParser ( Parser ):
     def attribute(self):
 
         localctx = AstroParser.AttributeContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 48, self.RULE_attribute)
+        self.enterRule(localctx, 46, self.RULE_attribute)
         try:
-            self.state = 278
+            self.state = 269
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,22,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,20,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 273
+                self.state = 264
                 self.astroDirectiveAttr()
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 274
+                self.state = 265
                 self.normalAttr()
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 275
+                self.state = 266
                 self.exprAttr()
                 pass
 
             elif la_ == 4:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 276
+                self.state = 267
                 self.booleanAttr()
                 pass
 
             elif la_ == 5:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 277
+                self.state = 268
                 self.spreadAttr()
                 pass
 
@@ -2020,14 +1952,14 @@ class AstroParser ( Parser ):
     def normalAttr(self):
 
         localctx = AstroParser.NormalAttrContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 50, self.RULE_normalAttr)
+        self.enterRule(localctx, 48, self.RULE_normalAttr)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 280
+            self.state = 271
             self.attrName()
-            self.state = 281
+            self.state = 272
             self.match(AstroParser.EQUALS)
-            self.state = 282
+            self.state = 273
             self.attrValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -2079,18 +2011,18 @@ class AstroParser ( Parser ):
     def exprAttr(self):
 
         localctx = AstroParser.ExprAttrContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 52, self.RULE_exprAttr)
+        self.enterRule(localctx, 50, self.RULE_exprAttr)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 284
+            self.state = 275
             self.attrName()
-            self.state = 285
+            self.state = 276
             self.match(AstroParser.EQUALS)
-            self.state = 286
+            self.state = 277
             self.match(AstroParser.TAG_EXPR_OPEN)
-            self.state = 287
+            self.state = 278
             self.exprBody()
-            self.state = 288
+            self.state = 279
             self.match(AstroParser.EXPR_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -2129,10 +2061,10 @@ class AstroParser ( Parser ):
     def booleanAttr(self):
 
         localctx = AstroParser.BooleanAttrContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 54, self.RULE_booleanAttr)
+        self.enterRule(localctx, 52, self.RULE_booleanAttr)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 290
+            self.state = 281
             self.attrName()
         except RecognitionException as re:
             localctx.exception = re
@@ -2180,16 +2112,16 @@ class AstroParser ( Parser ):
     def spreadAttr(self):
 
         localctx = AstroParser.SpreadAttrContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 56, self.RULE_spreadAttr)
+        self.enterRule(localctx, 54, self.RULE_spreadAttr)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 292
+            self.state = 283
             self.match(AstroParser.TAG_EXPR_OPEN)
-            self.state = 293
+            self.state = 284
             self.match(AstroParser.SPREAD)
-            self.state = 294
+            self.state = 285
             self.exprBody()
-            self.state = 295
+            self.state = 286
             self.match(AstroParser.EXPR_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -2241,28 +2173,28 @@ class AstroParser ( Parser ):
     def astroDirectiveAttr(self):
 
         localctx = AstroParser.AstroDirectiveAttrContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 58, self.RULE_astroDirectiveAttr)
+        self.enterRule(localctx, 56, self.RULE_astroDirectiveAttr)
         try:
-            self.state = 304
+            self.state = 295
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,23,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,21,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 297
+                self.state = 288
                 self.directiveName()
-                self.state = 298
+                self.state = 289
                 self.match(AstroParser.EQUALS)
-                self.state = 299
+                self.state = 290
                 self.match(AstroParser.TAG_EXPR_OPEN)
-                self.state = 300
+                self.state = 291
                 self.exprBody()
-                self.state = 301
+                self.state = 292
                 self.match(AstroParser.EXPR_CLOSE)
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 303
+                self.state = 294
                 self.directiveName()
                 pass
 
@@ -2309,11 +2241,11 @@ class AstroParser ( Parser ):
     def attrName(self):
 
         localctx = AstroParser.AttrNameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 60, self.RULE_attrName)
+        self.enterRule(localctx, 58, self.RULE_attrName)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 306
+            self.state = 297
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 1879048192) != 0)):
                 self._errHandler.recoverInline(self)
@@ -2359,11 +2291,11 @@ class AstroParser ( Parser ):
     def attrValue(self):
 
         localctx = AstroParser.AttrValueContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 62, self.RULE_attrValue)
+        self.enterRule(localctx, 60, self.RULE_attrValue)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 308
+            self.state = 299
             _la = self._input.LA(1)
             if not(_la==32 or _la==33):
                 self._errHandler.recoverInline(self)
@@ -2433,11 +2365,11 @@ class AstroParser ( Parser ):
     def directiveName(self):
 
         localctx = AstroParser.DirectiveNameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 64, self.RULE_directiveName)
+        self.enterRule(localctx, 62, self.RULE_directiveName)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 310
+            self.state = 301
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 268042240) != 0)):
                 self._errHandler.recoverInline(self)
@@ -2487,14 +2419,14 @@ class AstroParser ( Parser ):
     def templateExpr(self):
 
         localctx = AstroParser.TemplateExprContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 66, self.RULE_templateExpr)
+        self.enterRule(localctx, 64, self.RULE_templateExpr)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 312
+            self.state = 303
             self.match(AstroParser.TEMPLATE_EXPR_OPEN)
-            self.state = 313
+            self.state = 304
             self.exprBody()
-            self.state = 314
+            self.state = 305
             self.match(AstroParser.EXPR_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -2536,17 +2468,17 @@ class AstroParser ( Parser ):
     def exprBody(self):
 
         localctx = AstroParser.ExprBodyContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 68, self.RULE_exprBody)
+        self.enterRule(localctx, 66, self.RULE_exprBody)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 319
+            self.state = 310
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 17317308137472) != 0):
-                self.state = 316
+                self.state = 307
                 self.exprChunk()
-                self.state = 321
+                self.state = 312
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -2603,39 +2535,39 @@ class AstroParser ( Parser ):
     def exprChunk(self):
 
         localctx = AstroParser.ExprChunkContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 70, self.RULE_exprChunk)
+        self.enterRule(localctx, 68, self.RULE_exprChunk)
         try:
-            self.state = 328
+            self.state = 319
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [43]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 322
+                self.state = 313
                 self.match(AstroParser.EXPR_TEXT)
                 pass
             elif token in [39]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 323
+                self.state = 314
                 self.match(AstroParser.EXPR_STRING_DQ)
                 pass
             elif token in [40]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 324
+                self.state = 315
                 self.match(AstroParser.EXPR_STRING_SQ)
                 pass
             elif token in [41]:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 325
+                self.state = 316
                 self.match(AstroParser.EXPR_TEMPLATE)
                 pass
             elif token in [38]:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 326
+                self.state = 317
                 self.nestedExpr()
                 pass
             elif token in [42]:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 327
+                self.state = 318
                 self.exprComment()
                 pass
             else:
@@ -2684,14 +2616,14 @@ class AstroParser ( Parser ):
     def nestedExpr(self):
 
         localctx = AstroParser.NestedExprContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 72, self.RULE_nestedExpr)
+        self.enterRule(localctx, 70, self.RULE_nestedExpr)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 330
+            self.state = 321
             self.match(AstroParser.EXPR_OPEN)
-            self.state = 331
+            self.state = 322
             self.exprBody()
-            self.state = 332
+            self.state = 323
             self.match(AstroParser.EXPR_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -2738,23 +2670,23 @@ class AstroParser ( Parser ):
     def exprComment(self):
 
         localctx = AstroParser.ExprCommentContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 74, self.RULE_exprComment)
+        self.enterRule(localctx, 72, self.RULE_exprComment)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 334
+            self.state = 325
             self.match(AstroParser.EXPR_COMMENT_OPEN)
-            self.state = 338
+            self.state = 329
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==45:
-                self.state = 335
+                self.state = 326
                 self.match(AstroParser.EXPR_COMMENT_TEXT)
-                self.state = 340
+                self.state = 331
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 341
+            self.state = 332
             self.match(AstroParser.EXPR_COMMENT_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
