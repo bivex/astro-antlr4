@@ -293,13 +293,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_astroFile
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterAstroFile" ):
-                listener.enterAstroFile(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitAstroFile" ):
-                listener.exitAstroFile(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitAstroFile" ):
+                return visitor.visitAstroFile(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -347,13 +345,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_frontmatter
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterFrontmatter" ):
-                listener.enterFrontmatter(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitFrontmatter" ):
-                listener.exitFrontmatter(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitFrontmatter" ):
+                return visitor.visitFrontmatter(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -405,13 +401,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_template
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterTemplate" ):
-                listener.enterTemplate(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitTemplate" ):
-                listener.exitTemplate(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitTemplate" ):
+                return visitor.visitTemplate(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -484,13 +478,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_templateItem
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterTemplateItem" ):
-                listener.enterTemplateItem(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitTemplateItem" ):
-                listener.exitTemplateItem(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitTemplateItem" ):
+                return visitor.visitTemplateItem(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -577,13 +569,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_text
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterText" ):
-                listener.enterText(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitText" ):
-                listener.exitText(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitText" ):
+                return visitor.visitText(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -643,13 +633,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_htmlElement
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterHtmlElement" ):
-                listener.enterHtmlElement(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitHtmlElement" ):
-                listener.exitHtmlElement(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitHtmlElement" ):
+                return visitor.visitHtmlElement(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -715,13 +703,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_htmlOpenTag
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterHtmlOpenTag" ):
-                listener.enterHtmlOpenTag(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitHtmlOpenTag" ):
-                listener.exitHtmlOpenTag(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitHtmlOpenTag" ):
+                return visitor.visitHtmlOpenTag(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -785,13 +771,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_htmlVoidTag
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterHtmlVoidTag" ):
-                listener.enterHtmlVoidTag(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitHtmlVoidTag" ):
-                listener.exitHtmlVoidTag(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitHtmlVoidTag" ):
+                return visitor.visitHtmlVoidTag(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -848,13 +832,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_htmlCloseTag
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterHtmlCloseTag" ):
-                listener.enterHtmlCloseTag(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitHtmlCloseTag" ):
-                listener.exitHtmlCloseTag(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitHtmlCloseTag" ):
+                return visitor.visitHtmlCloseTag(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -893,13 +875,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_htmlTagName
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterHtmlTagName" ):
-                listener.enterHtmlTagName(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitHtmlTagName" ):
-                listener.exitHtmlTagName(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitHtmlTagName" ):
+                return visitor.visitHtmlTagName(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -947,13 +927,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_componentElement
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterComponentElement" ):
-                listener.enterComponentElement(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitComponentElement" ):
-                listener.exitComponentElement(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitComponentElement" ):
+                return visitor.visitComponentElement(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1019,13 +997,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_componentOpenTag
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterComponentOpenTag" ):
-                listener.enterComponentOpenTag(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitComponentOpenTag" ):
-                listener.exitComponentOpenTag(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitComponentOpenTag" ):
+                return visitor.visitComponentOpenTag(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1089,13 +1065,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_componentSelfCloseTag
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterComponentSelfCloseTag" ):
-                listener.enterComponentSelfCloseTag(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitComponentSelfCloseTag" ):
-                listener.exitComponentSelfCloseTag(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitComponentSelfCloseTag" ):
+                return visitor.visitComponentSelfCloseTag(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1152,13 +1126,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_componentCloseTag
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterComponentCloseTag" ):
-                listener.enterComponentCloseTag(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitComponentCloseTag" ):
-                listener.exitComponentCloseTag(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitComponentCloseTag" ):
+                return visitor.visitComponentCloseTag(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1206,13 +1178,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_componentTagName
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterComponentTagName" ):
-                listener.enterComponentTagName(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitComponentTagName" ):
-                listener.exitComponentTagName(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitComponentTagName" ):
+                return visitor.visitComponentTagName(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1273,13 +1243,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_fragmentElement
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterFragmentElement" ):
-                listener.enterFragmentElement(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitFragmentElement" ):
-                listener.exitFragmentElement(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitFragmentElement" ):
+                return visitor.visitFragmentElement(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1344,13 +1312,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_fragmentOpenTag
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterFragmentOpenTag" ):
-                listener.enterFragmentOpenTag(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitFragmentOpenTag" ):
-                listener.exitFragmentOpenTag(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitFragmentOpenTag" ):
+                return visitor.visitFragmentOpenTag(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1413,13 +1379,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_fragmentSelfCloseTag
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterFragmentSelfCloseTag" ):
-                listener.enterFragmentSelfCloseTag(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitFragmentSelfCloseTag" ):
-                listener.exitFragmentSelfCloseTag(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitFragmentSelfCloseTag" ):
+                return visitor.visitFragmentSelfCloseTag(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1475,13 +1439,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_fragmentCloseTag
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterFragmentCloseTag" ):
-                listener.enterFragmentCloseTag(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitFragmentCloseTag" ):
-                listener.exitFragmentCloseTag(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitFragmentCloseTag" ):
+                return visitor.visitFragmentCloseTag(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1539,13 +1501,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_styleBlock
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterStyleBlock" ):
-                listener.enterStyleBlock(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitStyleBlock" ):
-                listener.exitStyleBlock(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitStyleBlock" ):
+                return visitor.visitStyleBlock(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1624,13 +1584,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_scriptBlock
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterScriptBlock" ):
-                listener.enterScriptBlock(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitScriptBlock" ):
-                listener.exitScriptBlock(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitScriptBlock" ):
+                return visitor.visitScriptBlock(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1719,13 +1677,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_rawTextBlock
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterRawTextBlock" ):
-                listener.enterRawTextBlock(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitRawTextBlock" ):
-                listener.exitRawTextBlock(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitRawTextBlock" ):
+                return visitor.visitRawTextBlock(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1794,13 +1750,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_rawTagName
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterRawTagName" ):
-                listener.enterRawTagName(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitRawTagName" ):
-                listener.exitRawTagName(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitRawTagName" ):
+                return visitor.visitRawTagName(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1858,13 +1812,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_attribute
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterAttribute" ):
-                listener.enterAttribute(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitAttribute" ):
-                listener.exitAttribute(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitAttribute" ):
+                return visitor.visitAttribute(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1938,13 +1890,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_normalAttr
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterNormalAttr" ):
-                listener.enterNormalAttr(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitNormalAttr" ):
-                listener.exitNormalAttr(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitNormalAttr" ):
+                return visitor.visitNormalAttr(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -1997,13 +1947,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_exprAttr
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterExprAttr" ):
-                listener.enterExprAttr(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitExprAttr" ):
-                listener.exitExprAttr(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitExprAttr" ):
+                return visitor.visitExprAttr(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -2047,13 +1995,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_booleanAttr
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterBooleanAttr" ):
-                listener.enterBooleanAttr(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitBooleanAttr" ):
-                listener.exitBooleanAttr(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitBooleanAttr" ):
+                return visitor.visitBooleanAttr(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -2098,13 +2044,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_spreadAttr
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterSpreadAttr" ):
-                listener.enterSpreadAttr(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitSpreadAttr" ):
-                listener.exitSpreadAttr(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSpreadAttr" ):
+                return visitor.visitSpreadAttr(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -2159,13 +2103,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_astroDirectiveAttr
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterAstroDirectiveAttr" ):
-                listener.enterAstroDirectiveAttr(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitAstroDirectiveAttr" ):
-                listener.exitAstroDirectiveAttr(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitAstroDirectiveAttr" ):
+                return visitor.visitAstroDirectiveAttr(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -2227,13 +2169,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_attrName
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterAttrName" ):
-                listener.enterAttrName(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitAttrName" ):
-                listener.exitAttrName(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitAttrName" ):
+                return visitor.visitAttrName(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -2277,13 +2217,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_attrValue
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterAttrValue" ):
-                listener.enterAttrValue(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitAttrValue" ):
-                listener.exitAttrValue(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitAttrValue" ):
+                return visitor.visitAttrValue(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -2351,13 +2289,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_directiveName
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterDirectiveName" ):
-                listener.enterDirectiveName(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitDirectiveName" ):
-                listener.exitDirectiveName(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitDirectiveName" ):
+                return visitor.visitDirectiveName(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -2405,13 +2341,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_templateExpr
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterTemplateExpr" ):
-                listener.enterTemplateExpr(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitTemplateExpr" ):
-                listener.exitTemplateExpr(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitTemplateExpr" ):
+                return visitor.visitTemplateExpr(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -2454,13 +2388,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_exprBody
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterExprBody" ):
-                listener.enterExprBody(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitExprBody" ):
-                listener.exitExprBody(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitExprBody" ):
+                return visitor.visitExprBody(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -2521,13 +2453,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_exprChunk
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterExprChunk" ):
-                listener.enterExprChunk(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitExprChunk" ):
-                listener.exitExprChunk(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitExprChunk" ):
+                return visitor.visitExprChunk(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -2602,13 +2532,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_nestedExpr
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterNestedExpr" ):
-                listener.enterNestedExpr(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitNestedExpr" ):
-                listener.exitNestedExpr(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitNestedExpr" ):
+                return visitor.visitNestedExpr(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
@@ -2656,13 +2584,11 @@ class AstroParser ( Parser ):
         def getRuleIndex(self):
             return AstroParser.RULE_exprComment
 
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterExprComment" ):
-                listener.enterExprComment(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitExprComment" ):
-                listener.exitExprComment(self)
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitExprComment" ):
+                return visitor.visitExprComment(self)
+            else:
+                return visitor.visitChildren(self)
 
 
 
